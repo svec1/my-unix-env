@@ -1,3 +1,5 @@
+sudo pacman -Syu zsh gcc make terminus-font
+
 git submodule update --init
 
 cd dwm
