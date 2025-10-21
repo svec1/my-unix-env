@@ -30,6 +30,6 @@ cd byedpi
 sudo make clean install
 cd ..
 
-cp display,sh ~
-cp inet,sh ~
+cp display.sh ~
+cp inet.sh ~
 cp .xinirc ~
