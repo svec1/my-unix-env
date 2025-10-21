@@ -13,3 +13,7 @@
 [submodule "st"]
     path = st
     url = git://git.suckless.org/st
+
+[submodule "byedpi"]
+    path = byedpi
+    url = https://github.com/hufrea/byedpi

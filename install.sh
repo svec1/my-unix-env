@@ -26,6 +26,10 @@ git apply st-scrollback-mouse-0.9.2.diff
 sudo make clean install
 cd ..
 
+cd byedpi
+sudo make clean install
+cd ..
+
 cp display,sh ~
 cp inet,sh ~
 cp .xinirc ~
