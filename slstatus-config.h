@@ -64,9 +64,8 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const struct arg args[] = {
-	/* function format          argument */
-	{ disk_free, "%s ", "/home"},
-	{ cpu_perc, "[%s cpu usage] ", NULL},
-	{ ram_used, "%s ", NULL},
-	{ datetime, "%s",           "%F %T" }
-};
+    /* function format          argument */
+    {disk_free, "%s ", "/home"},
+    {cpu_perc, "[%s cpu usage] ", NULL},
+    {ram_used, "\033[96m%s\033[0m ", NULL},
+    {datetime, "%s", "%F %T"}};
